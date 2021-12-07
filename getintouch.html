@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Six</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <style>
+        input{
+            width: 100%;
+            border: none;
+            cursor: pointer ;
+        }
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        input[type=textmessage]{
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            padding: 12px 20px; 
+            margin: 8px 0;
+            resize: none;
+        }
+        input[type=submit]{
+            width: 100%;
+            background-color: #20b2aa;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+        input[type=submit]:hover{
+            background-color: rgb(10, 121, 115);
+        }
+    </style>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-box">
+                <h1>Health <span style="color: #ff8c00;">Essentials</span></h1>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="tip.html" class="nav-link">Tips</a></li>
+                <li class="nav-item"><a href="getintouch.html" class="nav-link">Get in touch</a></li>
+            </ul>
+        </nav><br>
+        </p>
+    </header>
+    <!-- main section -->
+    <div class="content">
+        <div class="form">
+         <h1>Get In Touch!</h1> 
+         <br>
+         <h2>Use the contact form to get in touch.</h2>
+         <br>
+        
+            <form action="" method="post">
+                <label for="name">Name:</label> 
+                <br>
+                <input type="text" id="name" placeholder="Your Name" name="Name"><br>
+                <label for="Email">Email Address:</label>
+                <br>
+                <input type="text" id="Email" placeholder="Your@email.com">
+                <br>
+                <label for="website">Website:</label>
+                <br>
+                <input type="text" placeholder="Website URL">
+                <br>
+                <label for="subeject">Subject:</label>
+                <br>
+                <input type="text" placeholder="Just a greeting" id="subject" name="subject">
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <input type="textmessage" id="message" name="Message" placeholder="Send us message">
+                <br>
+                <input type="submit" value="Send Away">
+             </form>
+        </div>
+    </div> <br><br>
+    <!-- footer section -->
+    <div class="footer">
+        <p>Copyright @ Health Essential</p>
+    </div>
+    <head></head>
+    <header></header>
+</body>
+</html>
